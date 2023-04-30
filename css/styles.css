@@ -59,6 +59,7 @@ a {
 .container {
   width: 1158px;
   padding: 0 15px;
+
   margin: 0 auto;
 }
 
@@ -72,6 +73,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header {
@@ -351,8 +353,9 @@ img {
 
 .filters-items {
   display: flex;
-  padding-top: 0px;
-  padding-bottom: 72px;
+  padding: 0;
+
+  margin-bottom: 72px;
   gap: 24px;
   align-items: center;
 
@@ -417,6 +420,8 @@ img {
 }
 
 .info-link {
-  margin: 0;
-  padding: 32px 0 32px 16px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid var(var(--border-box));
 }
