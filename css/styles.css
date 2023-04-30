@@ -323,7 +323,7 @@ img {
   margin-bottom: 16px;
   padding: 0;
 
-  width: 115px;
+  min-width: 115px;
   color: var(--primary-button-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
