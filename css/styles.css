@@ -409,7 +409,7 @@ img {
   margin-right: 24px;
   margin-bottom: 48px;
   width: 360px;
-  border: 1px solid var(--border-box);
+  /* border: 1px solid var(--border-box); */
 }
 
 .img-info:nth-child(3n) {
@@ -423,5 +423,5 @@ img {
   margin: 0 auto;
   padding: 32px 16px;
   border-top: none;
-  border: 1px solid var(var(--border-box));
+  border: 1px solid var(--border-box);
 }
