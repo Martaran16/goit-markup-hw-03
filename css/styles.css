@@ -422,6 +422,7 @@ img {
 .info-link {
   margin: 0 auto;
   padding: 32px 16px;
-  border-top: none;
+
   border: 1px solid var(--border-box);
+  border-top: none;
 }
